@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>8-B</title>
+  <meta name="title" content="8-B">
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="styl.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/hero-banner.png">
+  <link rel="preload" as="image" href="images/hero-bg.png">
+  <!-- Start of Async Drift Code -->
+
+</head>
+
+<body>
+
+  <!-- 
+    - PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle" data-circle></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="images/logo.svg" width="145" height="27" alt="Youdemi home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="images/logo.svg" width="145" height="27" alt="Youdemi home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-sm" data-nav-link>Bosh sahifa</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-sm" data-nav-link>Biz haqimizda</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">Start</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-labelledby="hero-label"
+        style="background-image: url('images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="headline-lg" id="hero-label">
+              8 <span class="span">-</span> B  
+              sinf
+            </h1>
+
+            <p class="title-md has-before">
+              Termiz shahar 3-son ixtisoslashtirilgan maktab
+            </p>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="images/hero-banner.png" width="590" height="620" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category has-bg-image" aria-labelledby="category-label"
+        style="background-image: url('images/category-bg.png')">
+        <div class="container">
+
+
+          <h2 class="headline-md text-center section-title">
+          <span class="span has-after">Fanlar</span>
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="images/category-1.svg" width="72" height="72" loading="lazy"
+                    alt="Data Science icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Kimyo /</h3>
+
+                  <p class="title-lg">Biologiya</p>
+                </div>
+
+                <a href="https://elibrary.tdpu.uz/darsliklar/maktab-darsliklari/8-sinf-darsiklar" target="_blank" class="layer-link" aria-label="Data Science Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="images/category-2.svg" width="72" height="72" loading="lazy"
+                    alt="UI/UX Design icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Algebra /</h3>
+
+                  <p class="title-lg">Geometriya</p>
+                </div>
+
+                <a href="https://elibrary.tdpu.uz/darsliklar/maktab-darsliklari/8-sinf-darsiklar" target="_blank" class="layer-link" aria-label="UI/UX Design Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="images/category-3.svg" width="72" height="72" loading="lazy"
+                    alt="Modern Physics icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Ona tili </h3>
+
+                  <p class="title-lg">Adabiyot</p>
+                </div>
+
+                <a href="https://elibrary.tdpu.uz/darsliklar/maktab-darsliklari/8-sinf-darsiklar" target="_blank" class="layer-link" aria-label="Modern Physics Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="images/category-4.svg" width="72" height="72" loading="lazy"
+                    alt="Music Production icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Fizika</h3>
+
+                </div>
+
+                <a href="https://elibrary.tdpu.uz/darsliklar/maktab-darsliklari/8-sinf-darsiklar" target="_blank" class="layer-link" aria-label="Music Production Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="images/category-5.svg" width="72" height="72" loading="lazy"
+                    alt="Data Science icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Boshqa </h3>
+
+                  <p class="title-lg">Fanlar</p>
+                </div>
+
+                <a href="https://elibrary.tdpu.uz/darsliklar/maktab-darsliklari/8-sinf-darsiklar" target="_blank" class="layer-link" aria-label="Data Science Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="images/category-6.svg" width="72" height="72" loading="lazy" alt="Finances icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Jismony </h3>
+                  <h3 class="title-lg">tarbiya</h3>
+
+                </div>
+
+                <a href="https://elibrary.tdpu.uz/darsliklar/maktab-darsliklari/8-sinf-darsiklar" target="_blank" class="layer-link" aria-label="Finances Category"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="https://elibrary.tdpu.uz/darsliklar/maktab-darsliklari/8-sinf-darsiklar" target="_blank" class="btn btn-primary">Barcha fanlarni ko'rish</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-labelledby="about-label">
+        <div class="container">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COURSE
+      -->
+        
+      <section class="cta" aria-labelledby="cta-label">
+        <div class="container at">
+
+          <h2 class="headline-md section-title" id="cta-label">
+            Barcha o'quvchilar
+          </h2>
+          
+
+        </div>
+      </section>
+
+      <section class="section course has-bg-image" aria-labelledby="course-label"
+        style="background-image: url('images/course-bg.png')">
+        <div class="container">
+<div class="rr">
+<ul class="ul1">
+            <li>1.  Abdusamatov Javohir</li>
+            <li>2.  Ishanova Nozima</li>
+            <li>3.  Ishkarayev Javohir</li>
+            <li>4.  Jovliyeva Mohinur</li>
+            <li>5.  Jumaqulova Maftuna</li>
+            <li>6.  Kamolova Bahor</li>
+            <li>7.  Karimjonova Marjona</li>
+            <li>8.  Komilov Shahzod</li>
+            <li>9.  Nortojiyeva Dilrabo</li>
+            <li>10. Ochilov Jamshid</li>
+            <li>11. Otamurodova Sevinch</li>
+            <li>12. Qarshiboyeva Sabrina</li>
+            <li>13. Rustamov Abdulaziz</li>
+            <li>14. Rustamov Orif</li>
+            <li>15. Raimova Diyora</li>
+            <li>16. Sayfiddinov Xurshid</li>
+            <li>17. Sharipov Ibrohim</li>
+            <li>18. Soatov Javohir</li>
+            <li>19. Tog'ayev Bexruz</li>
+            <li>20. To'laboyev Xayitali</li>
+            <li>21. Xoliqulova Manzura</li>
+            <li>22. Xushboqov Javohir</li>
+            <li>23. Zokirov Bobur</li>
+          </ul>  
+</div>
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="images/logo-footer.svg" width="145" height="27" alt="Youdemi home">
+          </a>
+
+
+        </div>
+
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/groups/1330029880865639/?ref=share" class="social-link">
+              <img src="images/facebook.svg" width="40" height="40" loading="lazy" alt="facebook">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <img src="images/twitter.svg" width="40" height="40" loading="lazy" alt="twitter">
+            </a>
+          </li>
+
+          <li>
+            <a href="t.me/termiz_shahar_3_son_im" class="social-link">
+              <img src="images/Telegram.png" width="40" height="40" loading="lazy" alt="pinterest">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <img src="images/instagram.svg" width="40" height="40" loading="lazy" alt="instagram">
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          8 - B | Termiz shahar 3-son IM
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
